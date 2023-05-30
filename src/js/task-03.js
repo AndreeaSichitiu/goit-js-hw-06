@@ -35,10 +35,10 @@ for (let i = 0; i < images.length; i++) {
   image.setAttribute("alt", imagesData.alt);
   image.style.cssText = `
   width: 300px;
-  height: 200px;`
- }
+  height: 200px;`;
+}
 
- imagesNode.style.cssText = `
+imagesNode.style.cssText = `
  list-style: none;
  display: flex;
  gap: 10px`;
